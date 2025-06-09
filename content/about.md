@@ -1,11 +1,11 @@
 ---
-title: "Nümorning - a propos"
-description: "nümorning - Produits sains et bio..."
-layout: "default"
+title: Nümorning - a propos
+description: nümorning - Produits sains et bio...
+layout: default
 hero:
-  title: "À propos"
-  description: "nümorning - blabla"
+  title: À propos
+  description: nümorning - blabla
 ---
 
-::AboutSection
+::about-section
 ::
