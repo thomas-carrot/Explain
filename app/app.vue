@@ -17,11 +17,11 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     { key: 'theme-color', name: 'theme-color', content: color }
   ],
-  link: [{ rel: 'icon', href: '/favicon.ico' }],
+  link: [{ rel: 'icon', href: '/ico.png' }],
   htmlAttrs: { lang: 'fr' }
 })
 
-const title = 'nümorning'
+const title = 'nümorning - Explana'
 const description = "Interface d'aide de nümorning"
 useSeoMeta({
   title,
