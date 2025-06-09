@@ -10,6 +10,13 @@ if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found' })
 }
 
+const layoutToUse = page.value?.meta?.layout || 'default'
+setPageLayout(layoutToUse)
+
+useSeoMeta({
+  title: page.value?.title ? `Nümorning - ${page.value.title}` : 'Nümorning',
+  description: page.value?.description
+})
 </script>
 
 <template>

@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 description: "Contactez-nous pour toute information"
+layout: "default"
 hero:
   title: "Contactez-nous"
   description: "Nous sommes là pour répondre à toutes vos questions. N'hésitez pas à nous contacter par le moyen qui vous convient le mieux."

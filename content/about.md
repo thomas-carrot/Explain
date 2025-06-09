@@ -1,5 +1,11 @@
-# About page
+---
+title: "Nümorning - a propos"
+description: "nümorning - Produits sains et bio..."
+layout: "default"
+hero:
+  title: "À propos"
+  description: "nümorning - blabla"
+---
 
-Here is some content.
-
-[Aller à la page À d'accueil](/)
+::AboutSection
+::

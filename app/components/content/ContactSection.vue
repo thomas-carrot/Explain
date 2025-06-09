@@ -1,10 +1,5 @@
 <script setup>
-// Récupère les données de la page contact
-const { data: contactData } = await useAsyncData('contact-data', () =>
-    queryCollection('content').path('/contact').first()
-)
-
-// Fonction pour obtenir les bonnes icônes SVG
+const { data: contactData } = await useAsyncData('contact-data', () => queryCollection('content').path('/contact').first())
 const getIconPath = (iconType) => {
   const icons = {
     location: {

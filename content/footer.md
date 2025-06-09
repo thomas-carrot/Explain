@@ -1,10 +1,12 @@
 ---
 title: Footer
 main:
+  - name: Accueil
+    href: /
   - name: À propos
     href: /about
-  - name: Accessibilité
-    href: /accessibility
+  - name: Préparation
+    href: /doc
 social:
   - name: Facebook
     href: https://www.facebook.com/numorningbox
