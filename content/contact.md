@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Nümorning - Contact
 description: Contactez-nous pour toute information
 layout: default
 hero:

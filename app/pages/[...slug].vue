@@ -14,7 +14,7 @@ const layoutToUse = page.value?.meta?.layout || 'default'
 setPageLayout(layoutToUse)
 
 useSeoMeta({
-  title: page.value?.title ? `Nümorning - ${page.value.title}` : 'Nümorning',
+  title: page.value?.title ? `${page.value.title}` : 'Nümorning',
   description: page.value?.description
 })
 </script>

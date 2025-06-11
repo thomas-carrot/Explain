@@ -2,8 +2,10 @@
 title: Navigation
 siteName: Mon Site
 links:
-  - title: À propos
-    url: /about
+  - title: FAQ
+    url: /faq
+  - title: Tarif
+    url: /facturation
   - title: Préparation
     url: /doc
   - title: Contact
