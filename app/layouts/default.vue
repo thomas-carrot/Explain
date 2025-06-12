@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const { data: nav } = await useAsyncData('navigation', () => queryCollection('content').path('/navigation').first())
-const { data: footer } = await useAsyncData('footer', () => queryCollection('content').path('/footer').first())
+const { data: nav } = await useAsyncData('navigation', () => queryCollection('content').path('/components/navigation').first())
+const { data: footer } = await useAsyncData('footer', () => queryCollection('content').path('/components/footer').first())
 
 </script>
 
