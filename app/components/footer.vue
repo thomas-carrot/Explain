@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-white">
+  <footer class="">
     <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
       <nav class="-mb-6 flex flex-wrap justify-center gap-x-12 gap-y-3 text-sm/6" aria-label="Footer">
         <NuxtLink

@@ -3,10 +3,14 @@ title: Footer
 main:
   - name: Accueil
     href: /
-  - name: À propos
-    href: /about
+  - name: FAQ
+    href: /faq
+  - name: Tarif
+    href: /facturation
   - name: Préparation
     href: /doc
+  - name: Contact
+    href: /contact
 social:
   - name: Facebook
     href: https://www.facebook.com/numorningbox

@@ -24,7 +24,7 @@ const getIconPath = (iconType) => {
 </script>
 
 <template>
-  <div class="bg-white py-24 sm:py-32">
+  <div class="bg-white py-24 sm:py-32 pt-16">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
         <h1 class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
