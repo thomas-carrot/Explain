@@ -2,6 +2,9 @@
 const { data: homeData } = await useAsyncData('home-data', () =>
     queryCollection('content').path('/').first()
 )
+
+console.log('Home data:', homeData.value)
+console.log('CTA link:', homeData.value?.meta?.mission?.cta_link)
 </script>
 
 <template>
@@ -28,7 +31,7 @@ const { data: homeData } = await useAsyncData('home-data', () =>
     </div>
 
     <!-- Mission Section -->
-    <div class="relative isolate -z-10">
+    <div class="relative isolate">
       <svg class="absolute inset-x-0 top-0 -z-10 h-256 w-full mask-[radial-gradient(32rem_32rem_at_center,white,transparent)] stroke-gray-200" aria-hidden="true">
         <defs>
           <pattern id="1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
@@ -52,8 +55,8 @@ const { data: homeData } = await useAsyncData('home-data', () =>
               <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">{{ homeData?.meta?.mission?.description || "Chez nümorning, nous croyons qu'un bon petit-déjeuner est la clé d'une journée réussie." }}</p>
               <div class="mt-10 flex justify-start gap-x-6">
                 <NuxtLink
-                    :to="homeData?.meta?.mission?.cta_link || '/about'"
-                    class="rounded-md bg-[#824E1E] px-6 py-3 text-base font-semibold text-white shadow-sm hover:[#824E1E] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-colors"
+                    :to="homeData?.meta?.mission?.cta_link || '/doc'"
+                    class="rounded-md bg-[#824E1E] px-6 py-3 text-base font-semibold text-white shadow-sm hover:[#824E1E] focus-visible:outline focus-visible:outline-offset-2 transition-colors"
                 >
                   {{ homeData?.meta?.mission?.cta_text || "Découvrir les produits" }}
                 </NuxtLink>

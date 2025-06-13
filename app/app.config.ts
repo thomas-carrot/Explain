@@ -1,12 +1,9 @@
-import { COLORS } from '../shared/enums'
-
 export default defineAppConfig({
   // https://ui.nuxt.com/getting-started/theme#design-system
   ui: {
     colors: {
       primary: 'emerald',
       neutral: 'slate',
-      ...Object.fromEntries(COLORS.map((c: string) => [c, c]))
     },
     button: {
       defaultVariants: {
