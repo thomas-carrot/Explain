@@ -1,3 +1,4 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
@@ -6,7 +7,6 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxthq/studio'
   ],
   css: ['~/assets/css/main.css'],
   app: {
@@ -19,6 +19,11 @@ export default defineNuxtConfig({
       colors: ['primary', 'secondary', 'info', 'success', 'warning', 'error']
     }
   },
+
+  studio: {
+    enabled: true
+  },
+
   future: {
     compatibilityVersion: 4
   },
