@@ -1,11 +1,11 @@
 <script setup lang="ts">
-// Utilise la requête qui fonctionne (Home2)
 const { data: home } = await useAsyncData('home', () =>
     queryCollection('content').path('/pages/').first()
 )
 
-const layoutToUse = home.value?.meta?.layout || 'default'
-setPageLayout(layoutToUse)
+definePageMeta({
+  layout: 'default'
+})
 </script>
 
 <template>
