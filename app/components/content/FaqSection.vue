@@ -39,7 +39,7 @@ const items = computed<AccordionItem[]>(() => {
       <div class="mx-auto max-w-4xl mt-16">
         <UAccordion
             :items="items"
-            class="space-y-4"
+            class="space-y-4 text-gray-600"
         />
       </div>
 
