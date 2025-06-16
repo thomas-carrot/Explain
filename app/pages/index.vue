@@ -1,9 +1,8 @@
 <script setup lang="ts">
-
-const { data: home } = await useAsyncData(() =>
-    queryCollection('pages').where({ _path: '/' }).first()
+// Utilise la requête qui fonctionne (Home2)
+const { data: home } = await useAsyncData('home', () =>
+    queryCollection('content').path('/pages/').first()
 )
-
 
 const layoutToUse = home.value?.meta?.layout || 'default'
 setPageLayout(layoutToUse)
