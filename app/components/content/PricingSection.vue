@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: pricingData } = await useAsyncData('pricing-data', () => queryCollection('content').path('/facturation').first())
+const { data: pricingData } = await useAsyncData('pricing-data', () => queryCollection('content').path('/pages/facturation').first())
 
 const testimonials = [
   [

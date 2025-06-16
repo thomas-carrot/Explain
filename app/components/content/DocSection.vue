@@ -26,7 +26,7 @@ interface Product {
   ]
 }
 
-const { data: productsData } = await useAsyncData('products-data', () => queryCollection('content').path('/doc').first())
+const { data: productsData } = await useAsyncData('products-data', () => queryCollection('content').path('/pages/doc').first())
 
 const products = computed(() => {
   const prods = productsData.value?.meta?.products as Product[] | undefined

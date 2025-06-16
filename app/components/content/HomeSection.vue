@@ -1,6 +1,6 @@
 <script setup>
 const { data: homeData } = await useAsyncData('home-data', () =>
-    queryCollection('content').path('/').first()
+    queryCollection('content').path('/pages/').first()
 )
 
 console.log('Home data:', homeData.value)

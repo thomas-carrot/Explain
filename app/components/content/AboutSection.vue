@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: aboutData } = await useAsyncData('doc-data', () => queryCollection('content').path('/about').first())
+const { data: aboutData } = await useAsyncData('doc-data', () => queryCollection('content').path('/pages/about').first())
 
 const people = [
   {

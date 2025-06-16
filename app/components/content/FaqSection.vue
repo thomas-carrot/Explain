@@ -7,7 +7,7 @@ interface FaqItem {
   content: string
 }
 
-const { data: faqData } = await useAsyncData('faq-data', () => queryCollection('content').path('/faq').first())
+const { data: faqData } = await useAsyncData('faq-data', () => queryCollection('content').path('/pages/faq').first())
 
 const items = computed<AccordionItem[]>(() => {
   const faqItems = faqData.value?.meta?.faq_items as FaqItem[] | undefined

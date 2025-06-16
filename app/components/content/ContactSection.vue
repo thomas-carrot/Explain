@@ -1,5 +1,5 @@
 <script setup>
-const { data: contactData } = await useAsyncData('contact-data', () => queryCollection('content').path('/contact').first())
+const { data: contactData } = await useAsyncData('contact-data', () => queryCollection('content').path('/pages/contact').first())
 const getIconPath = (iconType) => {
   const icons = {
     location: {
