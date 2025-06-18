@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/content',
     '@nuxt/icon',
-    '@nuxt/image',
+    '@nuxt/image'
   ],
   css: ['~/assets/css/main.css'],
   app: {
@@ -14,16 +14,16 @@ export default defineNuxtConfig({
       title: 'nümorning'
     }
   },
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  },
   ui: {
     theme: {
       colors: ['primary', 'secondary', 'info', 'success', 'warning', 'error']
     }
   },
-
-  studio: {
-    enabled: true
-  },
-
   future: {
     compatibilityVersion: 4
   },

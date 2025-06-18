@@ -2,9 +2,6 @@
 const { data: homeData } = await useAsyncData('home-data', () =>
     queryCollection('content').path('/pages/').first()
 )
-
-console.log('Home data:', homeData.value)
-console.log('CTA link:', homeData.value?.meta?.mission?.cta_link)
 </script>
 
 <template>

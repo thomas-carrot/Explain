@@ -28,7 +28,7 @@ products:
     available: true
     cta:
       label: commander ce produit
-      url: https://youtube.com
+      url: https://pro.numorning.com
     steps:
       - picture: https://itsblume.com/cdn/shop/videos/c/vp/8dbeee1bf26041d9b4950f7650889234/8dbeee1bf26041d9b4950f7650889234.SD-480p-0.9Mbps-35754022.mp4?v=0
         text: Versez 60g de muesli dans votre bol préféré
@@ -57,7 +57,7 @@ products:
     available: false
     cta:
       label: commander ce produit
-      url: https://youtube.com
+      url: https://pro.numorning.com
     steps:
       - picture: https://itsblume.com/cdn/shop/videos/c/vp/8dbeee1bf26041d9b4950f7650889234/8dbeee1bf26041d9b4950f7650889234.SD-480p-0.9Mbps-35754022.mp4?v=0
         text: Versez 60g de muesli dans votre bol préféré
