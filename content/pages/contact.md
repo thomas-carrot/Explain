@@ -1,30 +1,17 @@
 ---
-title: Nümorning - Contact
-description: Contactez-nous pour toute information
-layout: default
-hero:
-  title: Contactez-nous
-  description: Nous sommes là pour répondre à toutes vos questions. N'hésitez pas
-    à nous contacter par le moyen qui vous convient le mieux.
-contact_info:
-  - type: address
-    title: Notre locale
-    icon: location
-    details:
-      - 105 Av. Jean Jaurès bâtiment B1
-      - 69600 Oullins-Pierre-Bénite, France
-  - type: email
-    title: Email
-    icon: email
-    details:
-      - contact@numorning.com
-  - type: phone
-    title: Téléphone
-    icon: phone
-    details:
-      - +33 num lucie
-      - +33 4 78 57 90 28
+title: "Nümorning - Contact"
+description: "Contactez-nous pour toute information"
+layout: "default"
+blocks:
+  - type: "contact_info"
+    title: "Nos coordonnées"
+    contacts:
+      - contact_type: "address"
+        label: "Notre locale"
+        value: "105 Av. Jean Jaurès bâtiment B1, 69600 Oullins-Pierre-Bénite, France"
+        icon: "location"
+      - contact_type: "email"
+        label: "Email"
+        value: "contact@numorning.com"
+        icon: "email"
 ---
-
-::contact-section
-::
